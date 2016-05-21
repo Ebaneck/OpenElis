@@ -7,8 +7,11 @@ before_install:
  - gem install compass
 script: ant setupDB test dist
 notifications:
-  email:
-      recipients:
-        - bahmni@thoughtworks.com
-      on_success: change
-      on_failure: change
+ deploy:
+  provider: releases
+  user: "Ebaneck"
+  password: "aboliga7"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
