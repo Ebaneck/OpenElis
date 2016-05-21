@@ -11,7 +11,7 @@ notifications:
   provider: releases
   user: "Ebaneck"
   password: "aboliga7"
-  file: "FILE TO UPLOAD"
+  file: "/home/travis/build/Ebaneck/OpenElis/openelis/dist/openelis.war"
   skip_cleanup: true
   on:
     tags: true
