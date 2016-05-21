@@ -6,12 +6,4 @@ addons:
 before_install:
  - gem install compass
 script: ant setupDB test dist
-notifications:
- deploy:
-  provider: releases
-  user: "Ebaneck"
-  password: "aboliga7"
-  file: "/home/travis/build/Ebaneck/OpenElis/openelis/dist/openelis.war"
-  skip_cleanup: true
-  on:
-    tags: true
+
