@@ -1,9 +1,8 @@
 OpenElis
 ========
 
-[![Build Status](https://travis-ci.org/Bhamni/OpenElis.svg?branch=master)](https://travis-ci.org/Bhamni/OpenElis)
+[![Build Status](https://travis-ci.org/Ebaneck/OpenElis.svg?branch=master)](https://travis-ci.org/Ebaneck/OpenElis)
 
-forked from OpenElis_v3.1_r2013_02_21 branch in svn
 
 *To build OpenElis run*
 * `ant dist`  Creates OpenELIS War
@@ -22,7 +21,6 @@ Technical issues with the codebase
 Functional changes made by us
 =============================
 - The order should contain the panel along with the tests. Hence making panel more than convenience tool for selecting multiple tests.
-- AtomFeed based integration with OpenMRS and OpenERP
 - REST endpoint for Patient, LabResults
 
 - Added functionality to validate test results by a particular accession number. Also you can see items to be validated across all test sections.
