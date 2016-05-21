@@ -1,4 +1,4 @@
-OpenElis
+Lab System
 ========
 
 [![Build Status](https://travis-ci.org/Ebaneck/OpenElis.svg?branch=master)](https://travis-ci.org/Ebaneck/OpenElis)
@@ -25,7 +25,3 @@ Functional changes made by us
 
 - Added functionality to validate test results by a particular accession number. Also you can see items to be validated across all test sections.
 
-Technical improvements
-======================
-- Added ant buld
-- Shortcircuited all calls to Session.clear
